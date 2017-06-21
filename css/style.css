@@ -1,0 +1,197 @@
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+p {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+.linkedin-icon {
+  font-size: 4.0em;
+}
+
+.gmail-icon {
+  font-size: 4.0em;
+}
+
+.home-background {
+  background: url("https://images.unsplash.com/photo-1476648626462-f43a67bb1f67?dpr=1&auto=compress,format&fit=crop&w=1199&h=797&q=80&cs=tinysrgb&crop=&bg=");
+  color: white;
+  height: 797px;
+}
+
+.home-page {
+  margin: auto;
+  padding-top: 315px;
+  padding-bottom: 120px;
+}
+.icon-pic {
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 5.0em;
+}
+.navbar {
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  opacity: .8;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.thumbnail {
+  background-color: #5698bf;
+}
+.portfolio-grid {
+  background-color: #d6d4c9;
+  padding: 50px 0px 100px 0px;
+  margin: auto;
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+.portfolio-grid h1 {
+  padding-bottom: 75px;
+}
+.portfolio-img img{
+  height: 220px;
+  position: relative;
+}
+	ol, ul {
+		list-style: none;
+	}
+ul.feature-icons {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    ul.feature-icons li {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 0 1.6875em 0;
+        padding: 0.35em 0 0 3.5em;
+        position: relative;
+        vertical-align: top;
+        width: 8%;
+    }
+
+    ul.feature-icons li:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important;
+    }
+
+    ul.feature-icons li:before {
+        background: #5698bf;
+        border-radius: 100%;
+        color: #ffffff;
+        display: block;
+        left: 0;
+        line-height: 1.5em;
+        text-align: center;
+        top: 0;
+        
+}
+
+.devicon-git-plain {
+			  max-width: 5em;
+				padding-top: 10px;
+}
+
+	.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.featured {
+			color: #EA8A95;
+			display: block;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+		}
+
+			.icon.featured:before {
+				font-size: 6em;
+			}
+
+.about-grid {
+  background-color: #b5bebf;
+  padding: 50px 0px 70px 0px;
+  margin: auto;
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+.about-grid h1 {
+  padding-bottom: 25px;
+}
+
+.contact-grid {
+  background-color: #b5bebf;
+  padding: 50px 0px 0px 0px;
+  margin: auto;
+  
+}
+
+.contact-grid h1 {
+  padding-bottom: 25px;
+}
+ul.contact-icons li {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 0 1.6875em 0;
+        padding: 0.35em 0 0 1.8em;
+        position: relative;
+        vertical-align: top;
+    }
+.last-item {
+  padding: 50px 0 0 200px;
+}
+
+.roboto-font {
+  font-family: 'Roboto Mono', monospace !important;
+
+}
+
+.lobster-font {
+  font-family: 'Lobster', cursive !important;
+}
+
+.satisfy-font {
+  font-family: 'Satisfy', cursive !important;
+}
+
+.cookie-font {
+  font-family: 'Cookie', cursive !important;
+}
+
+.khula-font {
+  font-family: 'Khula', sans-serif !important;
+}
