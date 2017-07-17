@@ -13,6 +13,11 @@ p {
     -o-user-select: text;
     user-select: text;
 }
+
+html, body {
+  height: 100%;
+}
+
 .linkedin-icon {
   font-size: 4.0em;
 }
@@ -22,9 +27,9 @@ p {
 }
 
 .home-background {
-  background: url("https://images.unsplash.com/photo-1476648626462-f43a67bb1f67?dpr=1&auto=compress,format&fit=crop&w=1199&h=797&q=80&cs=tinysrgb&crop=&bg=");
-  color: white;
-  height: 797px;
+  background: url("http://res.cloudinary.com/ddhp5wtg8/image/upload/c_scale,h_1080,w_1920/v1500269883/mike-dennler-173199_pzl83o.jpg");
+  color: black;
+  height: 100%;
 }
 
 .home-page {
@@ -32,6 +37,7 @@ p {
   padding-top: 315px;
   padding-bottom: 120px;
 }
+
 .icon-pic {
   border-radius: 50%;
 }
@@ -194,4 +200,13 @@ ul.contact-icons li {
 
 .khula-font {
   font-family: 'Khula', sans-serif !important;
+}
+
+.copyright-text {
+  float: right!important;
+}
+
+.heading a:hover, .heading a:active, .heading a:visited, .heading a:link {
+  text-decoration: none;
+  color: black;
 }
