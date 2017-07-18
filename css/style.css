@@ -18,13 +18,10 @@ html, body {
   height: 100%;
 }
 
-.linkedin-icon {
+.contact-icon {
   font-size: 4.0em;
 }
 
-.gmail-icon {
-  font-size: 4.0em;
-}
 
 .home-background {
   background: url("http://res.cloudinary.com/ddhp5wtg8/image/upload/c_scale,h_1080,w_1920/v1500269883/mike-dennler-173199_pzl83o.jpg");
@@ -39,7 +36,7 @@ html, body {
 }
 
 .icon-pic {
-  border-radius: 50%;
+  border-radius: 90%;
 }
 
 h1 {
