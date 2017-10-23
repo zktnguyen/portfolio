@@ -7,8 +7,8 @@
 .btn-contacts {
   color: #000000;
   border: 1px;
-  background-color: #5f7db4;
-  min-width: 6rem;
+  background-color: rgb(103, 153, 179);
+  min-width: 6.5rem;
 }
 
 .btn-contacts:hover {
