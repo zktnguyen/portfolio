@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({ link, title, subtitle }) => (
-  <a href={ link }>
+  <a href={ link } rel='noopener noreferrer' target='_blank'>
     <div className='card card-styles'>
         <div className='card-body'>
           <h4 className='card-title'>{ title }</h4>

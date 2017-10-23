@@ -4,6 +4,8 @@ const AboutMe = () => (
   <div className='text-center about animated fadeInLeft'>
     Graduated UC Davis<br/>
     Play Badminton<br/>
+    Drink Milk Tea<br/>
+    Indulge Food<br/>
     Pet Animals<br/>
     Enjoy Music<br/>
     Exercise<br/>
