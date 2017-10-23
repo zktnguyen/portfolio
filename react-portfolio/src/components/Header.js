@@ -13,6 +13,7 @@ const Header = () => (
     <div className='col-sm-9'>
       <div className='my-name'>
         <h1>KIM NGUYEN</h1>
+        <h6 className='text-muted'>SOFTWARE DEVELOPER, PET, FOOD & MILK TEA ENTHUSIAST</h6>
       </div>
       <Contact />
     </div>
