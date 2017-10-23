@@ -10,13 +10,14 @@ const Header = () => (
         alt='me'
       />
     </div>
-    <div className='col-sm-9'>
-      <div className='my-name'>
-        <h1>KIM NGUYEN</h1>
-        <h6 className='text-muted'>SOFTWARE DEVELOPER, PET, FOOD & MILK TEA ENTHUSIAST</h6>
+    <div className='col-sm-8'>
+      <div className='row my-name text-center'>
+          <h1>KIM NGUYEN</h1>
+          <h6 className='text-muted'>SOFTWARE DEVELOPER, PET, FOOD & MILK TEA ENTHUSIAST</h6>
       </div>
       <Contact />
     </div>
+    <div className='col-sm-1'/>
   </div>
 );
 

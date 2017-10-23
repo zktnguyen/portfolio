@@ -4,6 +4,17 @@
   padding: 20px 40px 20px 40px;
 }
 
+.btn-contacts {
+  color: #000000;
+  border: 1px;
+  background-color: #5f7db4;
+  min-width: 6rem;
+}
+
+.btn-contacts:hover {
+  border: none;
+  background-color: transparent;
+}
 .Header {
   margin: 20px;
 }
@@ -58,12 +69,12 @@ ol, ul {
 li {
   font-size: 20px;
 }
+
 .card-styles {
   position: relative;
   width: 24rem;
   height: 9rem;
   display: inline-block;
-  padding: 10px 0px 0px 10px;
   margin: 10px;
   text-align: left;
   background-color: transparent;

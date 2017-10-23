@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
   <footer className='sticky-footer text-center'>
     
-    <div className="text-muted">SIMPLE PORTFOLIO by KIM T NGUYEN <br/>
+    <div className="text-muted">SIMPLE PORTFOLIO by KIM T NGUYEN 2017<br/>
       <a href='https://github.com/zktnguyen/portfolio' rel='noopener noreferrer' target='_blank'>
         <i className="fa fa-github" aria-hidden="true"/> GitHub Repository
       </a><br/>
