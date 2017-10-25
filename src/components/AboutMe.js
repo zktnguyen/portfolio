@@ -10,6 +10,7 @@ const AboutMe = () => (
       <li>Milk tea drinker</li>
       <li>Love dogs & cats</li>
       <li>Food is pure joy!</li>
+      <li>East Bay Native</li>
       <li><a href='https://www.yelp.com/user_details?userid=qlUgA6JV_MmGnNw7hWXJWA' 
     rel='noopener noreferrer' target='_blank'>Yelp Elite! 2017</a></li>
       <li><a href='https://open.spotify.com/user/iarekim' 
