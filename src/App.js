@@ -9,9 +9,9 @@ const App = () => (
   <div className='App'>
     <div className='container'>
       <Header/>
-      <div className='row'>
+      <div className='row '>
         <div className='col-md-3'>
-          <h5 className='titles text-center'>ABOUT ME</h5>
+          <h5 className='titles text-center'>A LITTLE 'BOUT ME</h5>
           <AboutMe/>
         </div>
         <div className='col-md-9'>
