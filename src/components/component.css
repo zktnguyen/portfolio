@@ -1,14 +1,17 @@
 .my-pic {
   border-radius: 50%;
   width: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px 40px 20px 40px;
 }
 
 .btn-contacts {
   color: #000000;
   border: 1px;
-  background-color: #5f7db4;
-  min-width: 6rem;
+  background-color: rgb(103, 153, 179);
+  min-width: 6.5rem;
 }
 
 .btn-contacts:hover {
@@ -29,8 +32,7 @@
 }
 
 .my-name h6 {
-  padding-left: 1.4rem;
-  margin-top: -2rem;
+  margin: -2rem 2rem 0rem 2rem;
 }
 
 .Contact {
