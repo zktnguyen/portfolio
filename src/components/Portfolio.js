@@ -1,9 +1,11 @@
 import React from 'react';
 import Card from './Card';
+import Skills from './Skills';
 
 const Portfolio = () => (
   <div className='text-center'>
     <div className='portfolio animated fadeInRight'>
+      <Skills />
       <Card title='COISAS' 
             subtitle='React.JS, jsx-hyperscript, CSS'
             link='https://coisas.alhur.es/' />
@@ -13,9 +15,9 @@ const Portfolio = () => (
       <Card title='REACT-REDUX TMDB' 
             subtitle='React.JS, Redux, Bootstrap, HTML, CSS'
             link='https://zktnguyen.github.io/redux-tmdb/' />
-      <Card title='TWITCH.TV STREAM LIST' 
-            subtitle='JavaScript, jQuery, Bootstrap, HTML, CSS'
-            link='https://zktnguyen.github.io/TwitchTV-stream-list/' />
+      <Card title='WEATHER LIST' 
+            subtitle='ReactJS, Redux, Bootstrap, HTML, CSS'
+            link='https://zktnguyen.github.io/weather/' />
       <Card title='MINESWEEPER' 
             subtitle='JavaScript, jQuery, Semantic-UI, HTML, CSS'
             link='https://zktnguyen.github.io/js-minesweeper/' />

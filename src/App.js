@@ -15,7 +15,7 @@ const App = () => (
           <AboutMe/>
         </div>
         <div className='col-md-9'>
-          <h5 className='titles text-center'>PORTFOLIO & SKILLS</h5>
+          <h5 className='titles text-center'>SKILLS & PORTFOLIO</h5>
           <Portfolio/>
         </div>
       </div>
