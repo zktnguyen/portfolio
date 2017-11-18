@@ -3,6 +3,7 @@
 }
 
 .titles {
-  margin: 20px;
+  margin: 20px auto 20px auto;
+  font-size: 30px;
   font-weight: bold;
 }
