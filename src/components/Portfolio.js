@@ -7,6 +7,9 @@ const Portfolio = () => (
       <Card title='COISAS' 
             subtitle='React.JS, jsx-hyperscript, CSS'
             link='https://coisas.alhur.es/' />
+      <Card title='SHOPSPLASH' 
+            subtitle='ReactJS, Redux, Express, MongoDB, Node.JS'
+            link='https://shop-splash.herokuapp.com' />
       <Card title='REACT-REDUX TMDB' 
             subtitle='React.JS, Redux, Bootstrap, HTML, CSS'
             link='https://zktnguyen.github.io/redux-tmdb/' />
@@ -16,12 +19,10 @@ const Portfolio = () => (
       <Card title='MINESWEEPER' 
             subtitle='JavaScript, jQuery, Semantic-UI, HTML, CSS'
             link='https://zktnguyen.github.io/js-minesweeper/' />
-      <Card title='JavaScript Calculator' 
+      <Card title='JS CALCULATOR' 
             subtitle='JavaScript, jQuery, Bootstrap, HTML, CSS'
             link='https://zktnguyen.github.io/jquery-calculator/' />
-      <Card title='TicTacToe' 
-            subtitle='JavaScript, jQuery, Bootstrap, HTML, CSS'
-            link='https://zktnguyen.github.io/js_tictactoe/' />
+      
     </div>
   </div>
 );
