@@ -1,24 +1,18 @@
 import React from 'react';
 import Skills from './Skills';
 
+const titleFont = "Indie Flower";
 const AboutMe = () => (
-  <div className='about animated fadeInLeft text-center'>
-    <ul>
-      <li>UC DAVIS '16</li>
-      <li><a href='https://github.com/zktnguyen/' rel='noopener noreferrer' target='_blank'>
-      Code my day away</a></li>
-      <li>Badminton player</li>
-      <li>Milk tea drinker</li>
-      <li>Love dogs & cats</li>
-      <li>East Bay Native</li>
-      <li><a href='https://www.yelp.com/user_details?userid=qlUgA6JV_MmGnNw7hWXJWA' 
-    rel='noopener noreferrer' target='_blank'>Yelp Elite! 2017</a></li>
-      <li><a href='https://open.spotify.com/user/iarekim' 
-    rel='noopener noreferrer' target='_blank'>Music saves my soul</a><br/></li>
-    </ul>
+  <div className='about animated fadeInLeft'>
+    <p className='text-center'>
+      UCDavis CS 2016 - Web Developer - JavaScript enthusiast - Badminton - Exercising - 
+      Music Lover - Concert Goer - Dogs and Cats - Traveling - SF East Bay Area Native - <br/>Yelp Elite 2017 -
+      Milk Tea - Food Lover - Black Coffee
+    
+    </p>
     <br/>
-    <div>
-      <h2>Primary Skills</h2>
+    <div className='text-center'>
+      <h2 style={{fontFamily: titleFont }}>Developer Toolbox</h2>
       <Skills />
     </div>
     

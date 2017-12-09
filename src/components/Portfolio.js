@@ -6,7 +6,7 @@ const Portfolio = () => (
     <div className='portfolio animated fadeInRight'>
       
       <Card title='COISAS' 
-            subtitle='ReactJS, jsx-hyperscript, CSS'
+            subtitle='ReactJS, react-hyperscript, CSS'
             link='https://coisas.alhur.es/' />
       <Card title='MR.DAO LANDSCAPING' 
             subtitle='ReactJS, Redux, Material-UI, Bootstrap, SCSS'
