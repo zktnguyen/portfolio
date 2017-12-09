@@ -15,7 +15,7 @@ const Contact = () => (
       <i className="fa fa-github" aria-hidden="true"/> GitHub</a>
     </div>
     <div className='col-md-2'>
-      <a className='btn btn-contacts links' rel='noopener noreferrer' target='_blank' href='https://www.linkedin.com/in/kim-nguyen-786b81a4/'>
+      <a className='btn btn-contacts links' rel='noopener noreferrer' target='_blank' href='https://www.linkedin.com/in/kimtnuyen4/'>
       <i className="fa fa-linkedin" aria-hidden="true"/> LinkedIn</a>
     </div>
   </div>

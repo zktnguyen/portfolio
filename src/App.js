@@ -6,24 +6,24 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 const App = () => (
-  <div className='App'>
-    <div className='container'>
-      <Header/>
-      <div className='row '>
-        <div className='col-md-3'>
-          <h5 className='titles text-center'>A LITTLE 'BOUT ME</h5>
-          <AboutMe/>
+  <div className="App">
+    <div className="container">
+      <Header />
+    </div>
+    <div className="container-fluid">
+      <div className="row ">
+        <div className="col-md-3">
+          <h1 className="text-center" style={{paddingLeft: '50px'}}>About Me</h1>
+          <AboutMe />
         </div>
-        <div className='col-md-9'>
-          <h5 className='titles text-center'>SKILLS & PORTFOLIO</h5>
-          <Portfolio/>
+        <div className="col-md-7">
+          <h1 className="text-center">Portfolio</h1>
+          <Portfolio />
         </div>
       </div>
     </div>
-    <Footer/>
+    <Footer />
   </div>
-  
 );
-
 
 export default App;
